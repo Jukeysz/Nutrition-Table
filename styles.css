@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    /*Container irá ter uma width e height adaptável dependendo do tamanho dos elementos dentro dela, até chegar em 500x800*/
+    max-width: 400px;
+    max-height: 800px;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 18px;
+}
+
+h2 {
+    margin: 0;
+}
+
+.title {
+    text-align: center;
+    border-bottom: 1px solid black;
+    font-size: 2.6rem;
+    margin: 0;
+}
+
+/*Abaixo desta linha existe apenas caos e blasfêmia exercidos por muitas classes mal nomeadas*/
+
+.serving-description {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.serving-size {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 0;
+    height: 30px;
+    border-bottom: 10px solid black;
+}
+
+.article-first , .article-last {
+    margin: 0;
+}
+
+.serving-amount {
+    margin: 0;
+    margin-top: 4px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.calories {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 2.6rem;
+    border-bottom: 10px solid black;
+}
+
+.article-description , .article-quantity {
+    margin: 0;
+}
+
+.daily-value {
+    text-align: end;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 3px 0;
+    border-bottom: 1px solid black;
+}
+
+.specify {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    border-bottom: 1px solid black;
+}
+
+.specify-last {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    border-bottom: 10px solid black;
+}
+
+.specify-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    padding-left: 15px;
+    color: rgb(109, 102, 102);
+    border-bottom: 1px solid black;
+}
+
+.specify-details-last {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    color: rgb(109, 102, 102);
+    border-bottom: 1px solid black;
+}
+
+.specify-details-p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.4rem;
+    color: rgb(109, 102, 102);
+}
+
+.specify-details-last-p {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 0.8rem;
+    color: rgb(109, 102, 102);
+}
+
+.pointer {
+    padding-right: 4px;
+}
+
+.specify-details-last-end {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    color: rgb(109, 102, 102);
+    border-bottom: 5px solid black;
+}
+
+.specify-details-specific {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    padding-left: 15px;
+    border-bottom: 1px solid black;
+}
+
+.item-percentage {
+    color:rgb(109, 102, 102);
+}
+
+.percentage {
+    font-weight: bold;
+}
